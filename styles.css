@@ -1,0 +1,84 @@
+body {
+    background-color: grey;
+    text-align: center;
+}
+
+header{
+    background-color: rgb(29, 29, 29);
+    color: whitesmoke;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+}
+
+button {
+    background-color: rgb(29, 29, 29);
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+button:hover {
+    background-color: black;
+}
+
+ul {
+    position: relative;
+    right: 20px;
+   
+}
+
+li {
+   
+    list-style-type: none;
+    margin: 4px;
+    border: solid rgb(29, 29, 29) 2px;
+    border-radius: 5%;
+    background-color:rgb(218, 50, 50);
+    z-index: 2;
+}
+
+.cardCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 50, 50);
+    color: rgb(29, 29, 29);
+    border: 10px rgb(29, 29, 29) solid;
+    border-radius: 5%;
+    max-width: 300px;
+    margin: 20px;
+
+    
+}
+
+.name {
+    font-size: 25px;
+    border: solid rgb(29, 29, 29) 5px;
+    border-radius: 5%;
+    background-color:rgb(218, 50, 50);
+    z-index: 2;
+}
+
+img{
+    max-width: 200px;
+}
+
+#line1{
+    background-color: rgb(29, 29, 29);
+    height: 50px;
+    width: 100%;
+    position: relative;
+    bottom: 40px;
+    z-index: 1;
+}
+
+
+#line2{
+    background-color: rgb(29, 29, 29);
+    height: 5px;
+    position: relative;
+    bottom: 30px;
+    z-index: 1;
+    width: 100%;
+}
